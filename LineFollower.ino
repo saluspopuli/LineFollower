@@ -68,7 +68,7 @@ void setup() {
 
   // The average is multiplied by a ratio to give a bit more allowance before the
   // robot reads a black value.
-  whiteThreshold = (tmp_sum/5)*0.70;
+  whiteThreshold = (tmp_sum/5)*0.75;
 
 
   // Outputs the current white threshold value for debugging purposes.
